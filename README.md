@@ -9,7 +9,6 @@ This project aims to predict whether an individual's income exceeds $50,000 annu
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [Applications](#applications)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -42,8 +41,5 @@ The top 5 features identified through feature importance were visualized and ana
 - **Retail**: Designing personalized offers for high-income customers.
 - **Recruitment**: Assisting workforce planning teams in identifying high-income professionals.
 
-##Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-##License
+## License
 This project is licensed under the MIT License
