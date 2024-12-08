@@ -6,14 +6,17 @@ This project aims to predict whether an individual's income exceeds $50,000 annu
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Techniques Used](#techniques-used)
+- [Project Structure](#project-structure)
 - [Results](#results)
 - [Applications](#applications)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
 This project focuses on:
 - Data preprocessing and exploratory data analysis.
-- Building a Decision Tree classifier.
+- Identifying feature importance and optimizing the model based on top features.
+- Building and evaluating a Decision Tree classifier.
 - Hyperparameter tuning using GridSearchCV.
 - Evaluating model performance using metrics like accuracy, confusion matrix, and classification report.
 
@@ -21,13 +24,17 @@ This project focuses on:
 The dataset used is the [Adult Dataset](https://archive.ics.uci.edu/ml/datasets/adult) from the UCI Machine Learning Repository. It contains demographic and employment attributes of individuals, with the target variable indicating whether their income exceeds $50,000 annually.
 
 ## Techniques Used
-- **Data Preprocessing**: Removal of irrelevant features, one-hot encoding of categorical variables.
+- **Data Preprocessing**: Removal of irrelevant features and one-hot encoding of categorical variables.
+- **Feature Importance Analysis**: Identifying the most important features using the Decision Tree model.
 - **Machine Learning**: Decision Tree Classifier.
 - **Hyperparameter Tuning**: GridSearchCV for optimal parameter selection.
 - **Evaluation Metrics**: Accuracy score, confusion matrix, and classification report.
 
 ## Results
-The optimized Decision Tree model achieved a significant level of accuracy, demonstrating its ability to classify income levels effectively. Key findings and visualizations can be found in the notebook.
+1. **Initial Model**: Trained the model on all features, achieving an accuracy of **85.03%**.
+2. **Optimized Model**: Trained the model on only the top 5 most important features, achieving an accuracy of **84.95%**. This demonstrates that the model can achieve nearly the same accuracy with significantly fewer features, improving computational efficiency.
+
+The top 5 features identified through feature importance were visualized and analyzed in the project.
 
 ## Applications
 - **Credit Card Marketing**: Identifying potential customers for premium credit cards.
@@ -35,5 +42,8 @@ The optimized Decision Tree model achieved a significant level of accuracy, demo
 - **Retail**: Designing personalized offers for high-income customers.
 - **Recruitment**: Assisting workforce planning teams in identifying high-income professionals.
 
+##Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
 ##License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
