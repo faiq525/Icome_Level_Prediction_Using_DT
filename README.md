@@ -6,12 +6,8 @@ This project aims to predict whether an individual's income exceeds $50,000 annu
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Techniques Used](#techniques-used)
-- [Project Structure](#project-structure)
 - [Results](#results)
 - [Applications](#applications)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -30,4 +26,14 @@ The dataset used is the [Adult Dataset](https://archive.ics.uci.edu/ml/datasets/
 - **Hyperparameter Tuning**: GridSearchCV for optimal parameter selection.
 - **Evaluation Metrics**: Accuracy score, confusion matrix, and classification report.
 
-## Project Structure
+## Results
+The optimized Decision Tree model achieved a significant level of accuracy, demonstrating its ability to classify income levels effectively. Key findings and visualizations can be found in the notebook.
+
+## Applications
+- **Credit Card Marketing**: Identifying potential customers for premium credit cards.
+- **Insurance Planning**: Targeting individuals with higher income for premium plans.
+- **Retail**: Designing personalized offers for high-income customers.
+- **Recruitment**: Assisting workforce planning teams in identifying high-income professionals.
+
+##License
+This project is licensed under the MIT License.
